@@ -1,13 +1,13 @@
 # worksplit-gen
-A command line tool for splitting work between people
+A command line tool for splitting work between people. It prints out the result in a truly beautiful table.
 
 # Installation
 > Make sure you have the latest node.js runtime environment installed
 
-Just clone this repo and run the `index.js` file using `node index <arguments>` command
+Just clone this repo and run the `index.js` file using `node index <arguments>`
 
-# Commands
-|command|description|example|required?|
+# Arguments
+|argument|description|example|required?|
 |-|-|-|-|
 |TOTAL|The number wihch will be divided into ranges.|`node index.js TOTAL=123`|true|
 |PEOPLE|A list of participants.|`node index.js PEOPLE=Alisa,John,Steve`|true|
