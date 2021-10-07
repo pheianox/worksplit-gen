@@ -1,6 +1,6 @@
 const HELP_CONTENT = `
 TOTAL (required)
-	The number wihch will to be divided into ranges.
+	The number wihch will be divided into ranges.
 	example:
 		TOTAL=15
 
