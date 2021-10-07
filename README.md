@@ -17,7 +17,7 @@ Just clone this repo and run the `index.js` file using `node index <arguments>`
 # Examples
 
 ## Example 1
-Let's say we need to divide 500 test questions between 4 people: Alisa, Bob, Steve and John
+Let's say we need to split 500 test questions between 4 people: Alisa, Bob, Steve and John
 
 `node index TOTAL=500 PEOPLE=Steve,Bob,John,Alisa`
 
@@ -36,7 +36,7 @@ Output:
 ```
 ## Example 2
 
-Let's say we need to divide 500 test questions between 4 people: Alisa, Bob, Steve and John, but in alphabetical order.
+Let's say we need to split 500 test questions between 4 people: Alisa, Bob, Steve and John, but in the alphabetical order.
 
 `node index TOTAL=500 PEOPLE=Steve,Bob,John,Alisa -A`
 
