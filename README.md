@@ -9,7 +9,7 @@ Just clone this repo and run the `index.js` file using `node index <arguments>` 
 # Commands
 |command|description|example|required?|
 |-|-|-|-|
-|TOTAL|The number wihch will to be divided into ranges.|`node index.js TOTAL=123`|true|
+|TOTAL|The number wihch will be divided into ranges.|`node index.js TOTAL=123`|true|
 |PEOPLE|A list of participants.|`node index.js PEOPLE=Alisa,John,Steve`|true|
 |-H or --HELP|Display all available commands.|`node index.js -H`|false|
 |-A|Sort peoples alphabetically.|`node PEOPLE=Steve,Alisa,John TOTAL=15 -A`|false|
