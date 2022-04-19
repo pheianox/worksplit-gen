@@ -2,9 +2,7 @@
 A command line tool for splitting work between people. It prints out the result in a truly beautiful table.
 
 # Installation
-> Make sure you have the latest node.js runtime environment installed
-
-Just clone this repo and run the `index.js` file using `node index <arguments>`
+_**NOTE:** Make sure you have the latest node.js runtime environment installed_
 
 # Arguments
 |argument|description|example|required?|
@@ -12,12 +10,12 @@ Just clone this repo and run the `index.js` file using `node index <arguments>`
 |TOTAL|The number wihch will be divided into ranges.|`node index.js TOTAL=123`|true|
 |PEOPLE|A list of participants.|`node index.js PEOPLE=Alisa,John,Steve`|true|
 |-H or --HELP|Display all available commands.|`node index.js -H`|false|
-|-A|Sort peoples alphabetically.|`node PEOPLE=Steve,Alisa,John TOTAL=15 -A`|false|
+|-A|Sort people alphabetically.|`node PEOPLE=Steve,Alisa,John TOTAL=15 -A`|false|
 
 # Examples
 
 ## Example 1
-Let's say we need to split 500 test questions between 4 people: Alisa, Bob, Steve and John
+Let's say you want to split 500 test questions between 4 people: Alisa, Bob, Steve and John
 
 `node index TOTAL=500 PEOPLE=Steve,Bob,John,Alisa`
 
@@ -36,7 +34,7 @@ Output:
 ```
 ## Example 2
 
-Let's say we need to split 500 test questions between 4 people: Alisa, Bob, Steve and John, but in the alphabetical order.
+Let's say you want to split 500 test questions between 4 people: Alisa, Bob, Steve and John, but in the alphabetical order.
 
 `node index TOTAL=500 PEOPLE=Steve,Bob,John,Alisa -A`
 
